@@ -1,0 +1,40 @@
+
+.rounded{
+    border: 10px double lightskyblue;
+    border-radius: 150px;
+    animation: border 3s infinite;
+}
+
+ @keyframes border{
+    50% {border-color: yellow;}
+  }
+
+*{
+  scroll-behavior: smooth;
+}
+
+
+.sm-icon{
+  width: 80px;
+}
+.sm-icon:hover{
+  opacity: 0.5;
+
+}
+
+.card{
+  background-color:lightslategray;
+}
+
+#card1{
+  border-width: 5px;
+  border-style: outset;
+}
+#card2{
+  border-width: 5px;
+  border-style: inset;
+}
+#card3{
+  border-width: 5px;
+  border-style: outset;
+}
