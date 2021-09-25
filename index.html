@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+          width: 100%;
+          height: 100%;
+        }
+        </style>    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style_portfolio.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-sm bg-primary navbar-dark justify-content-center">
+    <ul class="navbar-nav">
+      <li class="nav-item" style="color: white;">
+        <a class="nav-link" href="#about"><h2>About</h2></a>  
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#education"><h3>Education</h3></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#skills"><h2>Skills</h2></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact"><h3>Contact</h3></a>
+      </li>
+    </ul>
+  </nav>  
+
+<div class="container-fluid text-center" style="background-color: lightslategray;">
+    <h1 class="text-warning"><marquee> !! Welcome to my Website !!</marquee></h1>
+    <img class="rounded" src="Atharva.jpg" width="300" height="375">
+    <h2 class="text-white">Atharva Joshi</h2>
+</div>
+  <br>
+
+<div id="about" class="container-fluid text-center">
+    <h2 class="text-info" style="font-family: cursive; text-decoration: underline; color: dodgerblue;">About</h2>
+    <h4 class="about" >Hello, I am Atharva Joshi, Second Year Computer Engineering Student @PICT Pune</h4>
+</div>
+<br>
+
+<div id="education" class="container-fluid text-center" >
+    <h2 class="text-info" style="font-family: cursive; text-decoration: underline; color: dodgerblue;">Education</h2>
+</div>
+
+  <div id="demo" class="carousel slide text-center" data-ride="carousel" style="height: 90px;">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="background-color: lightskyblue;" >
+        <h4 class="text-warning">Tapti Public School, Bhusawal</h4>
+        <h5 class="text-warning"> <<<10th</h5>
+      </div>
+      <div class="carousel-item" style="background-color: lightskyblue;">
+        <h4 class="text-warning">Adv. Sitaram Anandramji Baheti College, Jalgaon</h4>
+        <h5 class="text-warning">11th-12th</h5>
+      </div>
+      <div class="carousel-item" style="background-color: lightskyblue;">
+        <h4 class="text-warning">Pursuing B.E. @ PICT Pune</h4>
+        <h5 class="text-warning">>>>12th</h5>
+      </div>
+    </div>
+    
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+  <br>
+  <div id="skills" class="container-fluid text-center" >
+      <h2 class="text-info" style="font-family: Georgia, 'Times New Roman', Times, serif; text-decoration: underline; color: dodgerblue;">Skills</h2>
+  </div>
+
+  <div class="card-columns">
+    <div id="card1" class="card border-primary">
+      <div class="card-body text-center">
+        <p class="card-text"><h4><u>Video Editing </u></h4>
+        <h5>Currently Working in the Technical Team of IEEE Pune Section Podcast Team</h5>
+        </p>
+      </div>
+    </div>
+    <div id="card2" class="card border-primary">
+      <div class="card-body text-center">
+        <p class="card-text"><h4><u>C/C++ Basics</u></h4>
+        <h5>Achieved 3* and 4* in C++ and C on hackerrank language section respectively till date</h5>
+        </p>
+      </div>
+    </div>
+    <div id="card3" class="card border-primary">
+      <div class="card-body text-center">
+        <p class="card-text"><h4><u>Web Development</u></h4>
+        <h5>Know Html CSS, and now learning and applying bootstrap and Javascript</h5>
+        </p>
+      </div>
+    </div>
+  </div>  
+
+  <br>
+
+    <div id="contact" class="container-fluid text-center">
+      <h2 class="text-info" style="font-family: Georgia, 'Times New Roman', Times, serif; text-decoration: underline; color: dodgerblue;">Contact</h2>
+ 
+      <br>
+      <a target="_blank" href="https://www.instagram.com/atharva6352/">
+      <img src="logo-instagram-png-13547.png" class="sm-icon">
+      </a>
+
+      <a target="_blank" href="https://www.linkedin.com/in/atharva-joshi-a624641ba/">
+        <img src="linkedin.png"  class="sm-icon">
+        </a>
+
+        <a target="_blank" href="https://github.com/atharvajoshibsl">
+          <img src="github.png"  class="sm-icon">
+          </a>  
+    </div>
+</body>
+</html>
